@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    /* this removes the line under the links */
+    text-decoration: none;
+}
+
+a, .text1{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12.5%;
+}
+
+.logo, .header1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.one {
+    display: flex;
+    background-color: #1F2937;
+    padding: 100px 12.5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+    
+}
+
+.header1 {
+    font-size: 48px;
+}
+
+.one img {
+    width: 550px;
+    height: 250px;
+}
+
+button, .container4 {
+    background-color: #3882F6;
+}
+
+button {
+    color: white;
+    font-size: 17px;
+    width: 120px;
+    font-weight: 600;
+    padding: 6px;
+    border-radius: 12px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 40px;
+}
+
+.cards {
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.two img {
+    width: 150px;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+    color: gray;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.text3 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 150px;
+    width: 61%;
+    font-weight: 100;
+}
+
+.quote {
+    margin-top: -150px;
+    text-align: right;
+    width: 61%;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 120px;
+}
