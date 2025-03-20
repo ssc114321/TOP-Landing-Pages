@@ -4,6 +4,9 @@ body {
     font-family: 'Roboto';
     margin: 0;
     display: flex;
+}
+
+body, .container1, .two, .three {
     flex-direction: column;
 }
 
@@ -24,34 +27,36 @@ a, .text1{
     color: #E5E7EB;
 }
 
-.header {
-    background-color: #1F2937;
+.header, .one, .two, .three, .four, .footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+
+.header, .one, .footer {
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.header {
     padding: 0 12.5%;
 }
 
-.logo, .header1 {
+.logo, .header1, .quote, .header2 {
     font-size: 24px;
-    color: #F9FAF8;
     font-weight: 900;
 }
 
 .one {
-    display: flex;
-    background-color: #1F2937;
     padding: 100px 12.5%;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.container1, .cards, .container4 {
+    display: flex;
 }
 
 .container1 {
-    display: flex;
-    flex-direction: column;
     gap: 10px;
     width: 450px;
-    
 }
 
 .header1 {
@@ -67,8 +72,11 @@ button, .container4 {
     background-color: #3882F6;
 }
 
+button, .footer, .header4, .logo, .header1 {
+    color: #F9FAF8;
+}
+
 button {
-    color: white;
     font-size: 17px;
     width: 120px;
     font-weight: 600;
@@ -76,22 +84,17 @@ button {
     border-radius: 12px;
 }
 
-.two {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .header2 {
     font-size: 36px;
     color: #1F2937;
-    font-weight: 900;
     padding: 40px;
 }
 
-.cards {
-    display: flex; 
+.cards, .three, .four, .footer {
     justify-content: center;
+}
+
+.cards {
     width: 100%;
     gap: 50px;
     padding-bottom: 100px;
@@ -108,11 +111,7 @@ button {
 }
 
 .three {
-    display: flex;
-    flex-direction: column;
     background-color: #E5E7EB;
-    justify-content: center;
-    align-items: center;
 }
 
 .text3 {
@@ -128,7 +127,34 @@ button {
     margin-top: -150px;
     text-align: right;
     width: 61%;
-    font-size: 24px;
-    font-weight: 900;
     margin-bottom: 120px;
+}
+
+.four {
+    padding: 100px;
+}
+
+.container4 {
+    padding: 40px 100px;
+    border-radius: 8px;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.header4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.signup4 {
+    border-color: white;
+}
+
+.footer {
+    padding: 30px;
 }
